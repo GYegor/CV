@@ -1,3 +1,3 @@
 # CV
 ## _My first repository_
-1. [_CV (Markdown)](https://GlUliana.github.io/CV/cv)_
+1. [CV_markdown](https://GlUliana.github.io/CV/cv)
