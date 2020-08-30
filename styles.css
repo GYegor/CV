@@ -1,5 +1,22 @@
-p {
-    color: yellow;
-    font-size: 300px;
-    text-align: center;
+html {
+  text-align: center;
+}
+body, h1 {
+  margin: 0;
+}
+/* .main-img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  margin-top: 100px;
+} */
+header {
+  background-color: tomato;
+  position: fixed;
+}
+.name {
+  font-family: 'Courier New', Courier, monospace;
+  /* text-align: center; */
+  width: 100%;
+  background-color: white;
 }
