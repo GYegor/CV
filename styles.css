@@ -1,22 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 html {
   text-align: center;
 }
 body, h1 {
   margin: 0;
 }
-/* .main-img {
+.main-img {
   height: 300px;
   width: 300px;
   border: 1px solid black;
   margin-top: 100px;
-} */
-header {
-  background-color: tomato;
-  position: fixed;
-}
+} 
 .name {
   font-family: 'Courier New', Courier, monospace;
-  /* text-align: center; */
   width: 100%;
   background-color: white;
+  text-align: center;
+  position: fixed;
 }
