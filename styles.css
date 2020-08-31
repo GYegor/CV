@@ -9,11 +9,15 @@ body, h1 {
   margin: 0;
 }
 .main-img {
-  height: 300px;
   width: 300px;
   border: 1px solid black;
   margin-top: 100px;
+  transition: width 500ms;
 } 
+.main-img:hover {
+  width: 400px;
+} 
+
 .name {
   font-family: 'Courier New', Courier, monospace;
   width: 100%;
@@ -42,4 +46,13 @@ body, h1 {
   .logo {
     top: 50px;
   }
+}
+
+@media screen and (max-width: 520px) {
+  .main-img {
+    transition: none;
+  }
+  .main-img:hover {
+    width: 300px;
+  } 
 }
