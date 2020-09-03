@@ -61,3 +61,7 @@ figure {
 h2, p, pre {
   font-family: 'Courier New', Courier, monospace;
 }
+pre {
+  color: palevioletred;
+  width: auto;
+}
