@@ -5,9 +5,8 @@
 .main-img {
   width: 300px;
   border: 1px solid black;
-  /* margin-top: 100px;
-  margin-left: 150px; */
   transition: width 500ms; 
+  left: 20px;
 }
 .main-img:hover {
   width: 400px;
@@ -59,7 +58,7 @@ main, footer {
 }
 pre {
   color: rgb(255, 67, 67);
-  background-color: rgb(146, 255, 146);
+  background-color: rgb(255, 180, 180);
   display: block;
   width: 472px;
   margin: 0;
@@ -79,4 +78,11 @@ a {
 }
 h2 {
   margin-left: 100px;
+}
+.about-me {
+  
+}
+.row {
+  display: flex;
+  justify-content: space-around;
 }
