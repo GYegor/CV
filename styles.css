@@ -2,18 +2,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  padding: 0 24px;
+}
+
 h1 {
   font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .main-img {
-  width: 300px;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
   border: 1px dashed black;
   /* transition: width 500ms;  */
-  margin-left: 25px;
 }
+
 /* .main-img:hover {
   width: 400px;
 }  */
+
 .name {
   width: 100%;
   height: 50px;
@@ -38,16 +47,6 @@ h1 {
   background-image: url(./assetes/GU_CV_by.png);
 }
 
-@media screen and (max-width: 520px) {
-  .logo {
-    top: 50px;
-  }
-  .main-img {
-    transition: none;
-    text-align: center;
-  }
-}
-
 main {
   margin-top: 50px;
 }
@@ -55,14 +54,21 @@ main {
 main, footer {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 pre {
-  color: rgb(255, 67, 67);
-  background-color: rgb(255, 180, 180);
-  display: block;
-  width: 472px;
-  margin: 0;
-  border: 3px solid  rgb(255, 67, 67);
+  display: inline-block;
+  padding: 0 24px;
+  background-color: rgb(255, 179, 179);
+  font-weight: 500;
+  font-family: "courier new", courier, monospace;
+  font-size: 11px;
+  color: rgb(36, 36, 36);
+  /* display: block; */
+  width: 100%;
+  white-space: pre-wrap;
+  /* border: 3px solid  rgb(255, 67, 67); */
 }
+
 footer {
   border-top: 1px solid black;
   text-align: center;
@@ -72,24 +78,69 @@ footer {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .gmail-photo {
   width: 20px;
 }
+
 a {
   color: black;
 }
+
+
+.top-row {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+
+.about-me {
+  margin-top: 45px;
+  padding-left: 24px;
+}
+
+.row {
+  padding: 12px 0;
+}
+
 h2 {
   background-color: rgb(255, 180, 180);
   width: fit-content;
-  padding: 0 8px;
+  margin-bottom: 12px;
+  padding: 0 8px 4px;
 }
-.row {
-  display: flex;
-  justify-content: space-around;
-}
-.about-me {
-  margin-top: 45px;
-}
-h2, p, pre, ul {
+
+
+/* h2, p, pre, ul {
   margin-left: 100px;
+} */
+
+@media screen and (max-width: 700px) {
+  .main-img {
+    transition: none;
+    text-align: center;
+    max-width: unset;
+  }
+  .top-row {
+    flex-direction: column;
+  }
+  .about-me {
+    margin-top: 12px;
+    padding-left: 0;
+  }
 }
+@media screen and (max-width: 515px) {
+  .logo {
+    left: 0;
+  }
+}
+@media screen and (max-width: 415px) {
+  .name {
+    text-align: start;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+

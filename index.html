@@ -14,86 +14,115 @@
     <h1 class="name">Uliana Hlushanko</h1>
     <div class="logo"></div>
   </header>
+
   <main>
-    <div class="row">
+    <div class="top-row">
       <div>
-        <figure>
-          <img class="main-img" src="./assetes/photo_of_me.jpg" alt="Photo of Uliana Hlushanko">
-        </figure>
+        <img class="main-img" src="./assetes/photo_of_me.jpg" alt="Photo of Uliana Hlushanko">
       </div>
       <div class="about-me">
-        <h2>Personal Information:</h2>
+        <div class="row">
+          <h2>Personal Information:</h2>
           <p>Birthday: August 14, 2007</p>
           <p>Place of birth: <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA">Minsk, Belarus</a></p>
-        <h2>Summary:</h2>
-        <ul>  
-          <li>I want to be a programmer and I enjoy programming!</li>
-          <li>I like knitting, drawing, felting and do something with my own hands.</li>
-          <li>I love playing computer games, e.g. <a
-            href="https://ru.wikipedia.org/wiki/Gothic_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)">Gotic</a>, <a
-            href="https://ru.wikipedia.org/wiki/Heroes_of_Might_and_Magic_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)">Heroes
-            of might and magic</a> and <a 
-            href="https://ru.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion">Oblivion</a>
-          </li>
-          <li>Started programming way with <a
-            href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D1%80%D0%B5%D1%82%D1%87_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)">Scratch</a>
-          </li>
-        </ul>
+        </div>
+
+        <div class="row">
+          <h2>Summary:</h2>
+          <ul>
+            <li>I want to be a programmer and I enjoy programming!</li>
+            <li>I like knitting, drawing, felting and do something with my own hands.</li>
+            <li>I love playing computer games, e.g. 
+              <a href="https://ru.wikipedia.org/wiki/Gothic_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)">Gotic</a>,
+              <a href="https://ru.wikipedia.org/wiki/Heroes_of_Might_and_Magic_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)">Heroes
+                of might and magic
+              </a> and 
+              <a href="https://ru.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion">
+                Oblivion
+              </a>
+            </li>
+            <li>Started programming way with <a
+                href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D1%80%D0%B5%D1%82%D1%87_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)">Scratch</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="second"><h2>Skills:</h2>
-        <p>Programming: HTML5/CSS3</p>
-        <p>Graphic editors: Adobe Photoshop.</p>
+
+    <div class="row">
+      <h2>Skills:</h2>
+      <p>Programming: HTML5/CSS3</p>
+      <p>Graphic editors: Adobe Photoshop.</p>
+    </div>
+
+    <div class="row">
       <h2>Code Example:</h2>
-        <pre>
-          .logo {
-          position: fixed;
-          top: 0;
-          right: 0;
-          width: 100px;
-          height: 50px;
-          background-image: url(./assetes/GU_CV_vo.png);
-          background-size: 100px;
-          background-position-y: center;
-          text-align: center;
-        }
-        
-        .logo:hover {
-          background-image: url(./assetes/GU_CV_by.png);
-        }
-        
-        @media screen and (max-width: 520px) {
-          .logo {
-            top: 50px;
-          }
-        }
-        
-        @media screen and (max-width: 520px) {
-          .main-img {
-            transition: none;
-          }
-          .main-img:hover {
-            width: 300px;
-          } 
-        }
-        </pre>
+      <pre>
+
+  .logo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    background-image: url(./assetes/GU_CV_vo.png);
+    background-size: 100px;
+    background-position-y: center;
+    text-align: center;
+  }
+
+  .logo:hover {
+    background-image: url(./assetes/GU_CV_by.png);
+  }
+
+  @media screen and (max-width: 520px) {
+    .logo {
+      top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .main-img {
+      transition: none;
+    }
+    .main-img:hover {
+      width: 300px;
+    } 
+  }
+      </pre>
+    </div>
+
+    <div class="row">
       <h2>Experience:</h2>
-        <p>Scratch projects:  <a href="https://scratch.mit.edu/users/Uliaglu/">Uliaglu</a></p>
+      <p>
+        Scratch projects: <a href="https://scratch.mit.edu/users/Uliaglu/">Uliaglu</a>
+      </p>
+    </div>
+    
+    <div class="row">
       <h2>Education:</h2>
-          <p><a href="https://www.codecademy.com/users/glUliana0447011801/achievements">Codeacademy: Learn HTML, Learn CSS</a></p>
+      <p>
+        <a href="https://www.codecademy.com/users/glUliana0447011801/achievements">Codeacademy: Learn HTML, Learn CSS</a>
+      </p>    
+    </div>
+
+    <div class="row">
       <h2>English:</h2>
-          <ul class="ul_2">
-          <li>5 years old studying on the English extra classes</li>
-          <li>2014-present time studying English at school</li>
-          <li>Passed courses <a href="https://www.codecademy.com/users/glUliana0447011801/achievements)">Codeacademy: Learn HTML, Learn CSS</a> by myself</li>
-          </ul>
-    </div>   
+      <ul class="ul_2">
+        <li>5 years old studying on the English extra classes</li>
+        <li>2014-present time studying English at school</li>
+        <li>Passed courses <a href="https://www.codecademy.com/users/glUliana0447011801/achievements)">Codeacademy: Learn
+            HTML, Learn CSS</a> by myself</li>
+      </ul>
+    </div>
   </main>
+
   <footer>
     <figure>
       <img class="gmail-photo" src="./assetes/Gmail_Icon.png" alt="Picture ot Gmail icon">
       <a href="https://mail.google.com/mail/u/0/#inbox" class="my-gmail"> uliaglu2007@gmail.com</a>
-    </figure> 
+    </figure>
   </footer>
 </body>
+
 </html>
