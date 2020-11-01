@@ -16,17 +16,12 @@ h1 {
   width: 100%;
   max-width: 300px;
   border: 1px dashed black;
-  /* transition: width 500ms;  */
 }
-
-/* .main-img:hover {
-  width: 400px;
-}  */
 
 .name {
   width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   position: fixed;
 }
@@ -37,7 +32,7 @@ h1 {
   right: 0;
   width: 100px;
   height: 50px;
-  background-image: url(./assetes/GU_CV_vo.png);
+  background-image: url(./assetes/GU_CV_rg.png);
   background-size: 100px;
   background-position-y: center;
   text-align: center;
@@ -63,10 +58,8 @@ pre {
   font-family: "courier new", courier, monospace;
   font-size: 11px;
   color: rgb(36, 36, 36);
-  /* display: block; */
   width: 100%;
   white-space: pre-wrap;
-  /* border: 3px solid  rgb(255, 67, 67); */
 }
 
 footer {
@@ -75,12 +68,15 @@ footer {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 
 .gmail-photo {
-  width: 20px;
+  width: 10px;
+
+}
+.my-gmail {
+  font-size: 11px;
 }
 
 a {
@@ -90,7 +86,6 @@ a {
 
 .top-row {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 
@@ -109,11 +104,6 @@ h2 {
   margin-bottom: 12px;
   padding: 0 8px 4px;
 }
-
-
-/* h2, p, pre, ul {
-  margin-left: 100px;
-} */
 
 @media screen and (max-width: 700px) {
   .main-img {
